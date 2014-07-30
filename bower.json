@@ -16,6 +16,6 @@
   ],
   "license": "Apache",
   "dependencies": {
-    "inuit-defaults": "~0.2.1",
+    "inuit-defaults": "~0.2.1"
   }
 }
