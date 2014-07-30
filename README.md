@@ -16,5 +16,6 @@ Install using Bower:
 
     $ bower install --save inuit-toggle-responsive
 
-Import in Sass:
+Import in Sass file:
 
+    @import "bower_components/toggle-responsive/_objects.toggle-responsive.scss";
