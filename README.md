@@ -19,4 +19,4 @@ Install using Bower:
 
 Sass import:
 
-    @import "bower_components/toggle-responsive/_objects.toggle-responsive.scss";
+    @import "bower_components/inuit-toggle-responsive/objects.toggle-responsive";
