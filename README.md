@@ -6,9 +6,9 @@ See also: http://blog.lavoie.sl/2013/11/responsive-menu-in-pure-css.html , https
 
 Example HTML markup:
 
-    <label for="toggle-responsive__checkbox" class="toggle-responsive__label" onclick>Toggle</label>
+    <label for="responsive-toggle-no-1" class="toggle-responsive__label" onclick>Toggle</label>
 
-    <input type="checkbox" id="toggle-responsive__checkbox" />
+    <input type="checkbox" id="responsive-toggle-no-1" />
     <div class="toggle-responsive__content">
         <p>Toggled content</p>
     </div>

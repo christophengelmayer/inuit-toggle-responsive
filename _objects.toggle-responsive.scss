@@ -28,7 +28,7 @@ $toggle-responsive-collapse-at:         719px !default;
         -webkit-user-select: none;
         user-select: none;
     }
-    .#{$inuit-toggle-responsive-namespace}toggle-responsive__checkbox:checked + div.#{$inuit-toggle-responsive-namespace}toggle-responsive__content {
+    .#{$inuit-toggle-responsive-namespace}toggle-responsive__checkbox:checked + .#{$inuit-toggle-responsive-namespace}toggle-responsive__content {
         display: block;
     }
 }
