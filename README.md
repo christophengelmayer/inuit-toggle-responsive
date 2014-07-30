@@ -2,10 +2,7 @@
 
 Hides element and adds button to toggle visibility on small viewports.
 
-See also:
-http://blog.lavoie.sl/2013/11/responsive-menu-in-pure-css.html
-
-https://coderwall.com/p/sujd_w
+See also: http://blog.lavoie.sl/2013/11/responsive-menu-in-pure-css.html , https://coderwall.com/p/sujd_w
 
 Example HTML markup:
 
