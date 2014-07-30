@@ -1,0 +1,21 @@
+{
+  "name": "inuit-toggle-responsive",
+  "version": "0.0.1",
+  "homepage": "https://github.com/slashadmin/objects.inuit-toggle-responsive",
+  "authors": [
+    "Christoph Engelmayer <christoph.engelmayer@gmail.com>"
+  ],
+  "description": "Hides an element and adds a button to toggle visibility for small viewport widths",
+  "main": "_objects.toggle-responsive.scss",
+  "keywords": [
+    "inuitcss",
+    "oocss",
+    "css",
+    "responsive",
+    "navigation"
+  ],
+  "license": "Apache",
+  "dependencies": {
+    "inuit-defaults": "~0.2.1",
+  }
+}

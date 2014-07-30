@@ -1,0 +1,34 @@
+/*------------------------------------*\
+    #TOGGLE-RESPONSIVE
+\*------------------------------------*/
+
+/**
+ * Hide element for small screen sizes and add a button to toggle visibility
+ * http://blog.lavoie.sl/2013/11/responsive-menu-in-pure-css.html
+ */
+
+// Predefine the variables below in order to alter and enable specific features.
+$inuit-toggle-responsive-namespace:     $inuit-namespace !default;
+$toggle-responsive-collapse-at:         719px !default;
+
+
+#{$inuit-toggle-responsive-namespace}toggle-responsive__checkbox,
+.{$inuit-toggle-responsive-namespace}toggle-responsive__label {
+    display: none;
+}
+
+@media only screen and (max-width: $toggle-responsive-breakpoint){
+    .{$inuit-toggle-responsive-namespace}toggle-responsive__content {
+        display: none;
+    }
+    .{$inuit-toggle-responsive-namespace}toggle-responsive__label {
+        display: block;
+        cursor: pointer;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+    #{$inuit-toggle-responsive-namespace}toggle-responsive__checkbox:checked + div.{$inuit-toggle-responsive-namespace}toggle-responsive__content {
+        display: block;
+    }
+}
