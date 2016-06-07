@@ -8,7 +8,7 @@ Example HTML markup:
 
     <label for="responsive-toggle-no-1" class="toggle-responsive__label" onclick>Toggle</label>
 
-    <input type="checkbox" id="responsive-toggle-no-1" />
+    <input type="checkbox" id="responsive-toggle-no-1" class="toggle-responsive__checkbox" />
     <div class="toggle-responsive__content">
         <p>Toggled content</p>
     </div>
